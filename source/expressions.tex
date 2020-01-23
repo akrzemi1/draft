@@ -2512,7 +2512,7 @@ are unevaluated operands\iref{expr.prop}.
 
 \pnum
 \begin{example}
-A common use of \grammarterm{requires-expression}{}s is to define
+A common use of \grammarterm{requires-expression}{s} is to define
 requirements in concepts such as the one below:
 \begin{codeblock}
 template<typename T>
@@ -2543,7 +2543,7 @@ Each name introduced by a local parameter is in scope from the point
 of its declaration until the closing brace of the
 \grammarterm{requirement-body}.
 These parameters have no linkage, storage, or lifetime; they are only used
-as notation for the purpose of defining \grammarterm{requirement}{}s.
+as notation for the purpose of defining \grammarterm{requirement}{s}.
 The \grammarterm{parameter-declaration-clause} of a
 \grammarterm{requirement-parameter-list}
 shall not terminate with an ellipsis.
@@ -2559,8 +2559,8 @@ concept C = requires(T t, ...) {    // error: terminates with an ellipsis
 \pnum
 \indextext{requirement}%
 The \grammarterm{requirement-body} contains
-a sequence of \grammarterm{requirement}{}s.
-These \grammarterm{requirement}{}s may refer to local
+a sequence of \grammarterm{requirement}{s}.
+These \grammarterm{requirement}{s} may refer to local
 parameters, template parameters, and any other declarations visible from the
 enclosing context.
 
